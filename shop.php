@@ -197,46 +197,19 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[0]->name;
+
+
+                                ?></a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0">$250.00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/anime99s.png">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none">Oupidatat non</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
+                                    <li><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[0]->description;
+
+
+                                ?></li>
                                     <li class="pt-2">
                                         <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                         <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -256,7 +229,59 @@
                                 </ul>
                                 <p class="text-center mb-0"><?php
                                     $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[0]->name;
+                                    echo $item->product[0]->price;
+
+
+                                ?></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 product-wap rounded-0">
+                            <div class="card rounded-0">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/anime99s.png">
+                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
+                                    <ul class="list-unstyled">
+                                        <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>
+                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[1]->name;
+
+
+                                ?></a>
+                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
+                                    <li><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[1]->description;
+
+
+                                ?></li>
+                                    <li class="pt-2">
+                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
+                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
+                                    </li>
+                                </ul>
+                                <ul class="list-unstyled d-flex justify-content-center mb-1">
+                                    <li>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-warning fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                        <i class="text-muted fa fa-star"></i>
+                                    </li>
+                                </ul>
+                                <p class="text-center mb-0"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[1]->price;
 
 
                                 ?></p>
@@ -276,9 +301,19 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[2]->name;
+
+
+                                ?></a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
+                                    <li><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[2]->description;
+
+
+                                ?></li>
                                     <li class="pt-2">
                                         <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                         <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -296,7 +331,12 @@
                                         <i class="text-muted fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[2]->price;
+
+
+                                ?></p>
                             </div>
                         </div>
                     </div>
@@ -313,9 +353,19 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[3]->name;
+
+
+                                ?></a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
+                                    <li><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[3]->description;
+
+
+                                ?></li>
                                     <li class="pt-2">
                                         <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                         <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -333,7 +383,12 @@
                                         <i class="text-muted fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[3]->price;
+
+
+                                ?></p>
                             </div>
                         </div>
                     </div>
@@ -350,9 +405,19 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[4]->name;
+
+
+                                ?></a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
+                                    <li><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[4]->description;
+
+
+                                ?></li>
                                     <li class="pt-2">
                                         <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                         <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -370,7 +435,12 @@
                                         <i class="text-muted fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[4]->price;
+
+
+                                ?></p>
                             </div>
                         </div>
                     </div>
@@ -387,9 +457,19 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[5]->name;
+
+
+                                ?></a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
+                                    <li><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[0]->description;
+
+
+                                ?></li>
                                     <li class="pt-2">
                                         <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                         <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -407,7 +487,12 @@
                                         <i class="text-muted fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[0]->price;
+
+
+                                ?></p>
                             </div>
                         </div>
                     </div>
@@ -424,9 +509,19 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[6]->name;
+
+
+                                ?></a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
+                                    <li><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[0]->description;
+
+
+                                ?></li>
                                     <li class="pt-2">
                                         <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                         <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -444,7 +539,12 @@
                                         <i class="text-muted fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[0]->price;
+
+
+                                ?></p>
                             </div>
                         </div>
                     </div>
@@ -461,9 +561,19 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[7]->name;
+
+
+                                ?></a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
+                                    <li><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[7]->description;
+
+
+                                ?></li>
                                     <li class="pt-2">
                                         <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                         <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -481,7 +591,12 @@
                                         <i class="text-muted fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[7]->price;
+
+
+                                ?></p>
                             </div>
                         </div>
                     </div>
@@ -498,9 +613,19 @@
                                 </div>
                             </div>
                             <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none">Oupidatat non</a>
+                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[8]->name;
+
+
+                                ?></a>
                                 <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li>M/L/X/XL</li>
+                                    <li><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[8]->description;
+
+
+                                ?></li>
                                     <li class="pt-2">
                                         <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
                                         <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
@@ -518,7 +643,12 @@
                                         <i class="text-muted fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[8]->price;
+
+
+                                ?></p>
                             </div>
                         </div>
                     </div>

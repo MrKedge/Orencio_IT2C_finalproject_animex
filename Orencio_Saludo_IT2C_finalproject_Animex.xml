@@ -16,7 +16,598 @@
 <products>
     <product>
         <name> Levi  </name>
-        <description> Resin </description>
-        <price> PHP 15000 </price>
+        <description> Action Figure </description>
+        <price> PHP 1,000 </price>
     </product>
+	
+	<product>
+        <name> Big Mom  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Sakura  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Diablo  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Rimuro  </name>
+        <description> Resin </description>
+        <price> PHP 1,999.00 </price>
+    </product>
+	
+	<product>
+        <name> Tifa  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Kaguya  </name>
+        <description> Action Figure </description>
+        <price> PHP 899.00 </price>
+    </product>
+	
+	<product>
+        <name> Meliodas  </name>
+        <description> Resin </description>
+        <price> PHP 4,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Saber  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,000.00 </price>
+    </product>
+
+    <product>
+        <name> Kaido  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,000 </price>
+    </product>
+	
+	<product>
+        <name> Yamato  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,800.00 </price>
+    </product>
+	
+	<product>
+        <name> Hatsune Miko  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Levi  </name>
+        <description> Resin </description>
+        <price> PHP 3,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Natsu  </name>
+        <description> Resin </description>
+        <price> PHP 2,999.00 </price>
+    </product>
+	
+	<product>
+        <name> Erza  </name>
+        <description> Action Figure </description>
+        <price> PHP 4,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Law X Luffy  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,899.00 </price>
+    </product>
+	
+	<product>
+        <name> Law  </name>
+        <description> Resin </description>
+        <price> PHP 4,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Madara  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,500.00 </price>
+    </product>
+
+    <product>
+        <name> Naruto  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,000 </price>
+    </product>
+	
+	<product>
+        <name> Naruto  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Naruto  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,5000.00 </price>
+    </product>
+	
+	<product>
+        <name> Madara  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Madara  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Sanji  </name>
+        <description> Resin </description>
+        <price> PHP 1,999.00 </price>
+    </product>
+	
+	<product>
+        <name> Sanji  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Luffy  </name>
+        <description> Action Figure </description>
+        <price> PHP 899.00 </price>
+    </product>
+	
+	<product>
+        <name> Laxus  </name>
+        <description> Resin </description>
+        <price> PHP 4,000.00 </price>
+    </product>
+
+    Ashley Saludo
+<product>
+        <name> Marco  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,000 </price>
+    </product>
+	
+	<product>
+        <name> Asuna  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Light  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,5000.00 </price>
+    </product>
+	
+	<product>
+        <name> Akeno  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Doflamingo  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Doflamingo  </name>
+        <description> Resin </description>
+        <price> PHP 1,999.00 </price>
+    </product>
+	
+	<product>
+        <name> Luffy  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Kid  </name>
+        <description> Action Figure </description>
+        <price> PHP 899.00 </price>
+    </product>
+	
+	<product>
+        <name> Marco  </name>
+        <description> Resin </description>
+        <price> PHP 4,000.00 </price>
+    </product>
+
+    <product>
+        <name> Mikasa  </name>
+        <description> Action Figure </description>
+        <price> PHP 3,000 </price>
+    </product>
+	
+	<product>
+        <name> Sailor Moon  </name>
+        <description> Action Figure </description>
+        <price> PHP 4,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Touka  </name>
+        <description> Action Figure </description>
+        <price> PHP 3,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Toga Himiko  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Raphtalia  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Nami  </name>
+        <description> Resin </description>
+        <price> PHP 2,999.00 </price>
+    </product>
+	
+	<product>
+        <name> Miyuki Shiba  </name>
+        <description> Action Figure </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Miyuki Shiba  </name>
+        <description> Action Figure </description>
+        <price> PHP 999.00 </price>
+    </product>
+	
+	<product>
+        <name> Mikasa Ackerman  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+
+    <product>
+        <name> Elizabeth  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,500 </price>
+    </product>
+	
+	<product>
+        <name> Akame  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Zoldyck Killua  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,900.00 </price>
+    </product>
+	
+	<product>
+        <name> Zoldyck Killua  </name>
+        <description> Resin </description>
+        <price> PHP 2,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Vegeta  </name>
+        <description> Resin </description>
+        <price> PHP 3,200.00 </price>
+    </product>
+	
+	<product>
+        <name> Uchiha Itachi </name>
+        <description> Resin </description>
+        <price> PHP 1,599.00 </price>
+    </product>
+	
+	<product>
+        <name> Uchiha Itachi </name>
+        <description> Action Figure </description>
+        <price> PHP 1,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Uchiha Itachi  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,899.00 </price>
+    </product>
+	
+	<product>
+        <name> Souma Yukihira  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Souma Yukihira  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,700 </price>
+    </product>
+	
+	<product>
+        <name> Lelouch  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,500.00 </price>
+    </product>
+	
+	<product>
+        <name> L  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Kurosaki Ichigo  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Kotomine Kirei  </name>
+        <description> Resin </description>
+        <price> PHP 2,000.00 </price>
+    </product>
+	
+	<product>
+        <name> L  </name>
+        <description> Resin </description>
+        <price> PHP 1,999.00 </price>
+    </product>
+	
+	<product>
+        <name> Kotomine Kirei  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Bakugo  </name>
+        <description> Action Figure </description>
+        <price> PHP 899.00 </price>
+    </product>
+	
+	<product>
+        <name> Bakugo  </name>
+        <description> Resin </description>
+        <price> PHP 4,000.00 </price>
+    </product>
+	
+	<product>
+        <name> kamina  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,000 </price>
+    </product>
+	
+	<product>
+        <name> Kamina  </name>
+        <description> Action Figure </description>
+        <price> PHP 3,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Joutarou Kuujou  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Joutarou Kuujou  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Hisoka  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Eren Yeager  </name>
+        <description> Resin </description>
+        <price> PHP 1,999.00 </price>
+    </product>
+	
+	<product>
+        <name> Eren Yeager  </name>
+        <description> Action Figure </description>
+        <price> PHP 4,000.00 </price>
+    </product>
+	
+	<product>
+        <name> C2  </name>
+        <description> Action Figure </description>
+        <price> PHP 899.00 </price>
+    </product>
+	
+	<product>
+        <name> Edward Elric  </name>
+        <description> Resin </description>
+        <price> PHP 2,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Dazai Osamu  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,500 </price>
+    </product>
+	
+	<product>
+        <name> C2  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,800.00 </price>
+    </product>
+	
+	<product>
+        <name> Senku  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Yutsuba  </name>
+        <description> Resin </description>
+        <price> PHP 3,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Kei  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Suzune  </name>
+        <description> Resin </description>
+        <price> PHP 3,999.00 </price>
+    </product>
+	
+	<product>
+        <name> Sinbad  </name>
+        <description> Action Figure </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Siesta  </name>
+        <description> Action Figure </description>
+        <price> PHP 4,899.00 </price>
+    </product>
+	
+	<product>
+        <name> Hancock  </name>
+        <description> Resin </description>
+        <price> PHP 4,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Senku  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,000 </price>
+    </product>
+	
+	<product>
+        <name> Sakurajima Mai  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Rossweisse  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,5000.00 </price>
+    </product>
+	
+	<product>
+        <name> Nino Nakano  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Miko Nakano  </name>
+        <description> Resin </description>
+        <price> PHP 3,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Hancock  </name>
+        <description> Resin </description>
+        <price> PHP 1,999.00 </price>
+    </product>
+	
+	<product>
+        <name> K  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Izuku Midoriya  </name>
+        <description> Action Figure </description>
+        <price> PHP 899.00 </price>
+    </product>
+	
+	<product>
+        <name> Izuku Midoriya  </name>
+        <description> Resin </description>
+        <price> PHP 4,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Itsuki  </name>
+        <description> Action Figure </description>
+        <price> PHP 2,500 </price>
+    </product>
+	
+	<product>
+        <name> Iori  </name>
+        <description> Action Figure </description>
+        <price> PHP 5,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Ichika  </name>
+        <description> Action Figure </description>
+        <price> PHP 3,500.00 </price>
+    </product>
+	
+	<product>
+        <name> Boa Hancock  </name>
+        <description> Resin </description>
+        <price> PHP 4,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Hitagi  </name>
+        <description> Resin </description>
+        <price> PHP 4,000.00 </price>
+    </product>
+	
+	<product>
+        <name> Hitagi  </name>
+        <description> Resin </description>
+        <price> PHP 3,999.00 </price>
+    </product>
+	
+	<product>
+        <name> Hitagi  </name>
+        <description> Action Figure </description>
+        <price> PHP 1,900.00 </price>
+    </product>
+	
+	<product>
+        <name> Yamato  </name>
+        <description> Action Figure </description>
+        <price> PHP 4,899.00 </price>
+    </product>
+	
+	<product>
+        <name> Mai  </name>
+        <description> Resin </description>
+        <price> PHP 4,000.00 </price>
+    </product>
+	
+
 </products>
