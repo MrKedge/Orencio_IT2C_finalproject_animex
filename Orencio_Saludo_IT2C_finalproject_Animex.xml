@@ -1,0 +1,8 @@
+
+<Products>
+    <product>
+        <name> test</name>
+        <description> hello</description>
+        <price>999 </price>
+    </product>
+</Products>

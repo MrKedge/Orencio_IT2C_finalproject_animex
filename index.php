@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Zay Shop eCommerce HTML CSS Template</title>
+    <title>Animex</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -73,7 +73,7 @@ https://templatemo.com/tm-559-zay-shop
                             <a class="nav-link" href="shop.php">Shop</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
+                            <a class="nav-link" href="contact.php">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -156,11 +156,11 @@ https://templatemo.com/tm-559-zay-shop
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left">
-                                <h1 class="h1">Proident occaecat</h1>
-                                <h3 class="h2">Aliquip ex ea commodo consequat</h3>
+                                <h1 class="h1">What's in it?</h1>
+                                <h3 class="h2">eCommerce</h3>
                                 <p>
-                                    You are permitted to use this Zay CSS template for your commercial websites. 
-                                    You are <strong>not permitted</strong> to re-distribute the template ZIP file in any kind of template collection websites.
+                                    This website contain and sells <strong> high quality</strong> and <strong> affordable</strong>
+                                    products.
                                 </p>
                             </div>
                         </div>
@@ -174,12 +174,13 @@ https://templatemo.com/tm-559-zay-shop
                             <img class="img-fluid" src="./assets/img/kurumi_1.png" alt="">
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h1 class="h1">Repr in voluptate</h1>
-                                <h3 class="h2">Ullamco laboris nisi ut </h3>
+                            <div class="text-align-justify">
+                                <h1 class="h1">Anime</h1>
+                                <h3 class="h2">eCommerce</h3>
                                 <p>
-                                    We bring you 100% free CSS templates for your websites. 
-                                    If you wish to support TemplateMo, please make a small contribution via PayPal or tell your friends about our website. Thank you.
+                                    Anime boasts such vibrancy and diversity in its characters. 
+                                    And collecting such anime action figures, anime stickers and figurines can be an incredibly fun and rewarding hobby.
+                                    It can make you feel like a kid again.
                                 </p>
                             </div>
                         </div>
@@ -251,7 +252,7 @@ https://templatemo.com/tm-559-zay-shop
                                 </li>
                                 <li class="text-muted text-right">$240.00</li>
                             </ul>
-                            <a href="shop-single.php" class="h2 text-decoration-none text-dark">Gym Weight</a>
+                            <a href="shop-single.php" class="h2 text-decoration-none text-dark">Raiden Shogun</a>
                             <p class="card-text">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.
                             </p>
@@ -319,11 +320,11 @@ https://templatemo.com/tm-559-zay-shop
             <div class="row">
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2>
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Animex shop</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i>
-                            123 Consectetur at ligula 10660
+                            Gasan, Marinduque, Phil.
                         </li>
                         <li>
                             <i class="fa fa-phone fa-fw"></i>
@@ -331,7 +332,7 @@ https://templatemo.com/tm-559-zay-shop
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>
+                            <a class="text-decoration-none" href="mailto:info@company.com">animex@gmail.com</a>
                         </li>
                     </ul>
                 </div>
@@ -339,13 +340,10 @@ https://templatemo.com/tm-559-zay-shop
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Luxury</a></li>
-                        <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
-                        <li><a class="text-decoration-none" href="#">Men's Shoes</a></li>
-                        <li><a class="text-decoration-none" href="#">Women's Shoes</a></li>
-                        <li><a class="text-decoration-none" href="#">Popular Dress</a></li>
-                        <li><a class="text-decoration-none" href="#">Gym Accessories</a></li>
-                        <li><a class="text-decoration-none" href="#">Sport Shoes</a></li>
+                        <li><a class="text-decoration-none" href="#">Action Figure</a></li>
+                        <li><a class="text-decoration-none" href="#">Anime Sticker</a></li>
+                        <li><a class="text-decoration-none" href="#">Figurine</a></li>
+
                     </ul>
                 </div>
 

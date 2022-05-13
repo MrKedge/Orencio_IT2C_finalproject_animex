@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Animex - Product Listing Page</title>
+    <title>Zay Shop - Product Listing Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -47,7 +47,7 @@
         <div class="container d-flex justify-content-between align-items-center">
 
             <a class="navbar-brand text-success logo h1 align-self-center" href="index.php">
-                Animex
+                Zay
             </a>
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -187,7 +187,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/anime1.png">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic26.png">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
@@ -224,7 +224,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/anime99s.png">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic27.png">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
@@ -261,7 +261,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/anime99.png">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic28.png">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
@@ -298,7 +298,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/anime4s.png">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic29.png">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
@@ -335,7 +335,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/anime5s.png">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic30.png">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
@@ -372,7 +372,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/anime6s.png">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic31.png">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
@@ -409,7 +409,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/anime7s.png">
+                            <img class="card-img rounded-0 img-fluid" src="assets/img/pic32.png">
                             <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
@@ -446,7 +446,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/anime8s.png">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic33.png">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
@@ -483,7 +483,7 @@
                     <div class="col-md-4">
                         <div class="card mb-4 product-wap rounded-0">
                             <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/anime9s.png">
+                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic34.png">
                                 <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
                                     <ul class="list-unstyled">
                                         <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
@@ -520,37 +520,34 @@
                 </div>
                 <div div="row">
                     <ul class="pagination pagination-lg justify-content-end">
-                        <li class="page-item disabled">
-                            <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0" href="#" tabindex="-1">1</a>
+                        <li class="page-item">
+                        <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop.php">1</a>
                         </li>
                         <li class="page-item">
                             <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop2.php">2</a>
                         </li>
                         <li class="page-item">
-                            <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop3.php">3</a>
+                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop3.php">3</a>
                         </li>
                         <li class="page-item">
-                            <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop4.php">4</a>
+                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop4.php">4</a>
                         </li>
                         <li class="page-item">
-                            <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop5.php">5</a>
+                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop5.php">5</a>
                         </li>
-                        <li class="page-item">
-                            <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop6.php">6</a>
+                        <li class="page-item disabled">
+                            <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0" href="shop6.php">6</a>
                         </li>
                         <li class="page-item">
                             <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop7.php">7</a>
                         </li>
                         <li class="page-item">
                             <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop8.php">8</a>
-                        </li> 
-                        <li class="page-item">
+                        </li> <li class="page-item">
                             <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop9.php">9</a>
-                        </li> 
-                        <li class="page-item">
+                        </li> <li class="page-item">
                             <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop10.php">10</a>
-                        </li> 
-                        <li class="page-item">
+                        </li> <li class="page-item">
                             <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop11.php">11</a>
                         </li>
                         
@@ -674,19 +671,19 @@
             <div class="row">
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Animex</h2>
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li>
                             <i class="fas fa-map-marker-alt fa-fw"></i>
-                            Gasan, Marinduque, Philippines
+                            123 Consectetur at ligula 10660
                         </li>
                         <li>
                             <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">09638562398</a>
+                            <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
                         </li>
                         <li>
                             <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">animex@gmail.com</a>
+                            <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>
                         </li>
                     </ul>
                 </div>
@@ -694,9 +691,13 @@
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="#">Action Figure</a></li>
-                        <li><a class="text-decoration-none" href="#">Anime Sticker</a></li>
-                        <li><a class="text-decoration-none" href="#">Figurines</a></li>
+                        <li><a class="text-decoration-none" href="#">Luxury</a></li>
+                        <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
+                        <li><a class="text-decoration-none" href="#">Men's Shoes</a></li>
+                        <li><a class="text-decoration-none" href="#">Women's Shoes</a></li>
+                        <li><a class="text-decoration-none" href="#">Popular Dress</a></li>
+                        <li><a class="text-decoration-none" href="#">Gym Accessories</a></li>
+                        <li><a class="text-decoration-none" href="#">Sport Shoes</a></li>
                     </ul>
                 </div>
 
