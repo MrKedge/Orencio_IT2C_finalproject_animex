@@ -1,8 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
-<Products>
+<!DOCTYPE products [
+    <!ELEMENT products (product)>
+    <!ELEMENT product (name, description, price)>
+
+    
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+
+
+]>
+
+
+<products>
     <product>
-        <name> test</name>
-        <description> hello</description>
-        <price>999 </price>
+        <name> Levi  </name>
+        <description> Resin </description>
+        <price> PHP 15000 </price>
     </product>
-</Products>
+</products>

@@ -254,7 +254,12 @@
                                         <i class="text-muted fa fa-star"></i>
                                     </li>
                                 </ul>
-                                <p class="text-center mb-0">$250.00</p>
+                                <p class="text-center mb-0"><?php
+                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+                                    echo $item->product[0]->name;
+
+
+                                ?></p>
                             </div>
                         </div>
                     </div>
