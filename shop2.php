@@ -718,9 +718,9 @@ echo '</div>';
 echo '';
 echo '</div>';
 echo '</div>';
-echo '<!-- End Content -->';
+/*echo '<!-- End Content -->';
 echo '';
-echo '<!-- Start Brands -->';
+echo '<!-- Start Brands -->';*/
 echo '<section class="bg-light py-5">';
 echo '<div class="container my-4">';
 echo '<div class="row text-center py-3">';
@@ -764,9 +764,9 @@ echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png"
 echo '</div>';
 echo '</div>';
 echo '</div>';
-echo '<!--End First slide-->';
+/*echo '<!--End First slide-->';
 echo '';
-echo '<!--Second slide-->';
+echo '<!--Second slide-->';*/
 echo '<div class="carousel-item">';
 echo '<div class="row">';
 echo '<div class="col-3 p-md-5">';
@@ -783,9 +783,9 @@ echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png"
 echo '</div>';
 echo '</div>';
 echo '</div>';
-echo '<!--End Second slide-->';
+/*echo '<!--End Second slide-->';
 echo '';
-echo '<!--Third slide-->';
+echo '<!--Third slide-->';*/
 echo '<div class="carousel-item">';
 echo '<div class="row">';
 echo '<div class="col-3 p-md-5">';
@@ -802,30 +802,30 @@ echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png"
 echo '</div>';
 echo '</div>';
 echo '</div>';
-echo '<!--End Third slide-->';
+/*echo '<!--End Third slide-->';
+echo '';*/
+echo '</div>';
+/*echo '<!--End Slides-->';*/
+echo '</div>';
+echo '</div>';
+/*echo '<!--End Carousel Wrapper-->';
 echo '';
-echo '</div>';
-echo '<!--End Slides-->';
-echo '</div>';
-echo '</div>';
-echo '<!--End Carousel Wrapper-->';
-echo '';
-echo '<!--Controls-->';
+echo '<!--Controls-->';*/
 echo '<div class="col-1 align-self-center">';
 echo '<a class="h1" href="#multi-item-example" role="button" data-bs-slide="next">';
 echo '<i class="text-light fas fa-chevron-right"></i>';
 echo '</a>';
 echo '</div>';
-echo '<!--End Controls-->';
+/*echo '<!--End Controls-->';*/
 echo '</div>';
 echo '</div>';
 echo '</div>';
 echo '</div>';
 echo '</section>';
-echo '<!--End Brands-->';
+/*echo '<!--End Brands-->';
 echo '';
 echo '';
-echo '<!-- Start Footer -->';
+echo '<!-- Start Footer -->';*/
 echo '<footer class="bg-dark" id="tempaltemo_footer">';
 echo '<div class="container">';
 echo '<div class="row">';

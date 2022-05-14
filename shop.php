@@ -742,11 +742,9 @@ echo '</div>';
 echo '';
 echo '</div>';
 echo '</div>';
-?>
-    <!-- End Content -->
-
-    <!-- Start Brands -->
-    <?php
+/*echo '<!-- End Content -->';
+echo '';
+echo '<!-- Start Brands -->';*/
 echo '<section class="bg-light py-5">';
 echo '<div class="container my-4">';
 echo '<div class="row text-center py-3">';
@@ -790,9 +788,9 @@ echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png"
 echo '</div>';
 echo '</div>';
 echo '</div>';
-echo '<!--End First slide-->';
+/*echo '<!--End First slide-->';
 echo '';
-echo '<!--Second slide-->';
+echo '<!--Second slide-->';*/
 echo '<div class="carousel-item">';
 echo '<div class="row">';
 echo '<div class="col-3 p-md-5">';
@@ -809,9 +807,9 @@ echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png"
 echo '</div>';
 echo '</div>';
 echo '</div>';
-echo '<!--End Second slide-->';
+/*echo '<!--End Second slide-->';
 echo '';
-echo '<!--Third slide-->';
+echo '<!--Third slide-->';*/
 echo '<div class="carousel-item">';
 echo '<div class="row">';
 echo '<div class="col-3 p-md-5">';
@@ -828,48 +826,48 @@ echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png"
 echo '</div>';
 echo '</div>';
 echo '</div>';
-echo '<!--End Third slide-->';
+/*echo '<!--End Third slide-->';
+echo '';*/
+echo '</div>';
+/*echo '<!--End Slides-->';*/
+echo '</div>';
+echo '</div>';
+/*echo '<!--End Carousel Wrapper-->';
 echo '';
-echo '</div>';
-echo '<!--End Slides-->';
-echo '</div>';
-echo '</div>';
-echo '<!--End Carousel Wrapper-->';
-echo '';
-echo '<!--Controls-->';
+echo '<!--Controls-->';*/
 echo '<div class="col-1 align-self-center">';
 echo '<a class="h1" href="#multi-item-example" role="button" data-bs-slide="next">';
 echo '<i class="text-light fas fa-chevron-right"></i>';
 echo '</a>';
 echo '</div>';
-echo '<!--End Controls-->';
+/*echo '<!--End Controls-->';*/
 echo '</div>';
 echo '</div>';
 echo '</div>';
 echo '</div>';
 echo '</section>';
-echo '<!--End Brands-->';
+/*echo '<!--End Brands-->';
 echo '';
 echo '';
-echo '<!-- Start Footer -->';
+echo '<!-- Start Footer -->';*/
 echo '<footer class="bg-dark" id="tempaltemo_footer">';
 echo '<div class="container">';
 echo '<div class="row">';
 echo '';
 echo '<div class="col-md-4 pt-5">';
-echo '<h2 class="h2 text-success border-bottom pb-3 border-light logo">Animex</h2>';
+echo '<h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2>';
 echo '<ul class="list-unstyled text-light footer-link-list">';
 echo '<li>';
 echo '<i class="fas fa-map-marker-alt fa-fw"></i>';
-echo 'Gasan, Marinduque, Philippines';
+echo '123 Consectetur at ligula 10660';
 echo '</li>';
 echo '<li>';
 echo '<i class="fa fa-phone fa-fw"></i>';
-echo '<a class="text-decoration-none" href="tel:010-020-0340">09638562398</a>';
+echo '<a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>';
 echo '</li>';
 echo '<li>';
 echo '<i class="fa fa-envelope fa-fw"></i>';
-echo '<a class="text-decoration-none" href="mailto:info@company.com">animex@gmail.com</a>';
+echo '<a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>';
 echo '</li>';
 echo '</ul>';
 echo '</div>';
@@ -877,9 +875,13 @@ echo '';
 echo '<div class="col-md-4 pt-5">';
 echo '<h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>';
 echo '<ul class="list-unstyled text-light footer-link-list">';
-echo '<li><a class="text-decoration-none" href="#">Action Figure</a></li>';
-echo '<li><a class="text-decoration-none" href="#">Anime Sticker</a></li>';
-echo '<li><a class="text-decoration-none" href="#">Figurines</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Luxury</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Sport Wear</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Mens Shoes</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Womens Shoes</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Popular Dress</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Gym Accessories</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Sport Shoes</a></li>';
 echo '</ul>';
 echo '</div>';
 echo '';
