@@ -45,7 +45,7 @@ echo '</nav>';
 
 
     <!-- Header -->*/
-    <?php
+    
     echo '<nav class="navbar navbar-expand-lg navbar-light shadow">';
     echo '<div class="container d-flex justify-content-between align-items-center">';
     echo '';
@@ -655,253 +655,255 @@ echo '<p class="text-center mb-0">';
 $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
 echo $item->product[89]->price;
 echo '</p>';
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div div="row">
-                    <ul class="pagination pagination-lg justify-content-end">
-                        <li class="page-item">
-                        <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop.php">1</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop2.php">2</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop3.php">3</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop4.php">4</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop5.php">5</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop6.php">6</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop7.php">7</a>
-                        </li>
-                        <li class="page-item">
-                            <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop8.php">8</a>
-                        </li> 
-                        <li class="page-item">
-                            <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop9.php">9</a>
-                        </li> 
-                        <li class="page-item disabled">
-                            <a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0" href="shop10.php">10</a>
-                        </li> 
-                        <li class="page-item">
-                            <a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop11.php">11</a>
-                        </li>
-                        
-                        
-                    </ul>
-                </div>
-            </div>
 
-        </div>
-    </div>
-    <!-- End Content -->
-
-    <!-- Start Brands -->
-    <section class="bg-light py-5">
-        <div class="container my-4">
-            <div class="row text-center py-3">
-                <div class="col-lg-6 m-auto">
-                    <h1 class="h1">Our Brands</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        Lorem ipsum dolor sit amet.
-                    </p>
-                </div>
-                <div class="col-lg-9 m-auto tempaltemo-carousel">
-                    <div class="row d-flex flex-row">
-                        <!--Controls-->
-                        <div class="col-1 align-self-center">
-                            <a class="h1" href="#multi-item-example" role="button" data-bs-slide="prev">
-                                <i class="text-light fas fa-chevron-left"></i>
-                            </a>
-                        </div>
-                        <!--End Controls-->
-
-                        <!--Carousel Wrapper-->
-                        <div class="col">
-                            <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="multi-item-example" data-bs-ride="carousel">
-                                <!--Slides-->
-                                <div class="carousel-inner product-links-wap" role="listbox">
-
-                                    <!--First slide-->
-                                    <div class="carousel-item active">
-                                        <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End First slide-->
-
-                                    <!--Second slide-->
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Second slide-->
-
-                                    <!--Third slide-->
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Third slide-->
-
-                                </div>
-                                <!--End Slides-->
-                            </div>
-                        </div>
-                        <!--End Carousel Wrapper-->
-
-                        <!--Controls-->
-                        <div class="col-1 align-self-center">
-                            <a class="h1" href="#multi-item-example" role="button" data-bs-slide="next">
-                                <i class="text-light fas fa-chevron-right"></i>
-                            </a>
-                        </div>
-                        <!--End Controls-->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Brands-->
-
-
-    <!-- Start Footer -->
-    <footer class="bg-dark" id="tempaltemo_footer">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                            123 Consectetur at ligula 10660
-                        </li>
-                        <li>
-                            <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Luxury</a></li>
-                        <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
-                        <li><a class="text-decoration-none" href="#">Men's Shoes</a></li>
-                        <li><a class="text-decoration-none" href="#">Women's Shoes</a></li>
-                        <li><a class="text-decoration-none" href="#">Popular Dress</a></li>
-                        <li><a class="text-decoration-none" href="#">Gym Accessories</a></li>
-                        <li><a class="text-decoration-none" href="#">Sport Shoes</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Home</a></li>
-                        <li><a class="text-decoration-none" href="#">About Us</a></li>
-                        <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
-                        <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                        <li><a class="text-decoration-none" href="#">Contact</a></li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="row text-light mb-4">
-                <div class="col-12 mb-3">
-                    <div class="w-100 my-3 border-top border-light"></div>
-                </div>
-                <div class="col-auto me-auto">
-                    <ul class="list-inline text-left footer-icons">
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <label class="sr-only" for="subscribeEmail">Email address</label>
-                    <div class="input-group mb-2">
-                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
-                        <div class="input-group-text btn-success text-light">Subscribe</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w-100 bg-black py-3">
-            <div class="container">
-                <div class="row pt-2">
-                    <div class="col-12">
-                        <p class="text-left text-light">
-                            Copyright &copy; 2021 Company Name 
-                            | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </footer>
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div div="row">';
+echo '<ul class="pagination pagination-lg justify-content-end">';
+echo '<li class="page-item">';
+echo '<a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop.php">1</a>';
+echo '</li>';
+echo '<li class="page-item">';
+echo '<a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop2.php">2</a>';
+echo '</li>';
+echo '<li class="page-item">';
+echo '<a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop3.php">3</a>';
+echo '</li>';
+echo '<li class="page-item">';
+echo '<a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop4.php">4</a>';
+echo '</li>';
+echo '<li class="page-item">';
+echo '<a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop5.php">5</a>';
+echo '</li>';
+echo '<li class="page-item">';
+echo '<a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="shop6.php">6</a>';
+echo '</li>';
+echo '<li class="page-item">';
+echo '<a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop7.php">7</a>';
+echo '</li>';
+echo '<li class="page-item">';
+echo '<a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop8.php">8</a>';
+echo '</li>';
+echo '<li class="page-item">';
+echo '<a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop9.php">9</a>';
+echo '</li>';
+echo '<li class="page-item disabled">';
+echo '<a class="page-link active rounded-0 mr-3 shadow-sm border-top-0 border-left-0" href="shop10.php">10</a>';
+echo '</li>';
+echo '<li class="page-item">';
+echo '<a class="page-link rounded-0 shadow-sm border-top-0 border-left-0 text-dark" href="shop11.php">11</a>';
+echo '</li>';
+echo '';
+echo '';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+echo '';
+echo '</div>';
+echo '</div>';
+echo '<!-- End Content -->';
+echo '';
+echo '<!-- Start Brands -->';
+echo '<section class="bg-light py-5">';
+echo '<div class="container my-4">';
+echo '<div class="row text-center py-3">';
+echo '<div class="col-lg-6 m-auto">';
+echo '<h1 class="h1">Our Brands</h1>';
+echo '<p>';
+echo 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod';
+echo 'Lorem ipsum dolor sit amet.';
+echo '</p>';
+echo '</div>';
+echo '<div class="col-lg-9 m-auto tempaltemo-carousel">';
+echo '<div class="row d-flex flex-row">';
+echo '<!--Controls-->';
+echo '<div class="col-1 align-self-center">';
+echo '<a class="h1" href="#multi-item-example" role="button" data-bs-slide="prev">';
+echo '<i class="text-light fas fa-chevron-left"></i>';
+echo '</a>';
+echo '</div>';
+echo '<!--End Controls-->';
+echo '';
+echo '<!--Carousel Wrapper-->';
+echo '<div class="col">';
+echo '<div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="multi-item-example" data-bs-ride="carousel">';
+echo '<!--Slides-->';
+echo '<div class="carousel-inner product-links-wap" role="listbox">';
+echo '';
+echo '<!--First slide-->';
+echo '<div class="carousel-item active">';
+echo '<div class="row">';
+echo '<div class="col-3 p-md-5">';
+echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>';
+echo '</div>';
+echo '<div class="col-3 p-md-5">';
+echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>';
+echo '</div>';
+echo '<div class="col-3 p-md-5">';
+echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>';
+echo '</div>';
+echo '<div class="col-3 p-md-5">';
+echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<!--End First slide-->';
+echo '';
+echo '<!--Second slide-->';
+echo '<div class="carousel-item">';
+echo '<div class="row">';
+echo '<div class="col-3 p-md-5">';
+echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>';
+echo '</div>';
+echo '<div class="col-3 p-md-5">';
+echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>';
+echo '</div>';
+echo '<div class="col-3 p-md-5">';
+echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>';
+echo '</div>';
+echo '<div class="col-3 p-md-5">';
+echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<!--End Second slide-->';
+echo '';
+echo '<!--Third slide-->';
+echo '<div class="carousel-item">';
+echo '<div class="row">';
+echo '<div class="col-3 p-md-5">';
+echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>';
+echo '</div>';
+echo '<div class="col-3 p-md-5">';
+echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>';
+echo '</div>';
+echo '<div class="col-3 p-md-5">';
+echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>';
+echo '</div>';
+echo '<div class="col-3 p-md-5">';
+echo '<a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<!--End Third slide-->';
+echo '';
+echo '</div>';
+echo '<!--End Slides-->';
+echo '</div>';
+echo '</div>';
+echo '<!--End Carousel Wrapper-->';
+echo '';
+echo '<!--Controls-->';
+echo '<div class="col-1 align-self-center">';
+echo '<a class="h1" href="#multi-item-example" role="button" data-bs-slide="next">';
+echo '<i class="text-light fas fa-chevron-right"></i>';
+echo '</a>';
+echo '</div>';
+echo '<!--End Controls-->';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+echo '<!--End Brands-->';
+echo '';
+echo '';
+echo '<!-- Start Footer -->';
+echo '<footer class="bg-dark" id="tempaltemo_footer">';
+echo '<div class="container">';
+echo '<div class="row">';
+echo '';
+echo '<div class="col-md-4 pt-5">';
+echo '<h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2>';
+echo '<ul class="list-unstyled text-light footer-link-list">';
+echo '<li>';
+echo '<i class="fas fa-map-marker-alt fa-fw"></i>';
+echo '123 Consectetur at ligula 10660';
+echo '</li>';
+echo '<li>';
+echo '<i class="fa fa-phone fa-fw"></i>';
+echo '<a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>';
+echo '</li>';
+echo '<li>';
+echo '<i class="fa fa-envelope fa-fw"></i>';
+echo '<a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>';
+echo '</li>';
+echo '</ul>';
+echo '</div>';
+echo '';
+echo '<div class="col-md-4 pt-5">';
+echo '<h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>';
+echo '<ul class="list-unstyled text-light footer-link-list">';
+echo '<li><a class="text-decoration-none" href="#">Luxury</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Sport Wear</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Mens Shoes</a></li>';
+echo '<li><a class="text-decoration-none" href="#">WomenShoes</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Popular Dress</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Gym Accessories</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Sport Shoes</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '';
+echo '<div class="col-md-4 pt-5">';
+echo '<h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>';
+echo '<ul class="list-unstyled text-light footer-link-list">';
+echo '<li><a class="text-decoration-none" href="#">Home</a></li>';
+echo '<li><a class="text-decoration-none" href="#">About Us</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Shop Locations</a></li>';
+echo '<li><a class="text-decoration-none" href="#">FAQs</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Contact</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '';
+echo '</div>';
+echo '';
+echo '<div class="row text-light mb-4">';
+echo '<div class="col-12 mb-3">';
+echo '<div class="w-100 my-3 border-top border-light"></div>';
+echo '</div>';
+echo '<div class="col-auto me-auto">';
+echo '<ul class="list-inline text-left footer-icons">';
+echo '<li class="list-inline-item border border-light rounded-circle text-center">';
+echo '<a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>';
+echo '</li>';
+echo '<li class="list-inline-item border border-light rounded-circle text-center">';
+echo '<a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>';
+echo '</li>';
+echo '<li class="list-inline-item border border-light rounded-circle text-center">';
+echo '<a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>';
+echo '</li>';
+echo '<li class="list-inline-item border border-light rounded-circle text-center">';
+echo '<a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>';
+echo '</li>';
+echo '</ul>';
+echo '</div>';
+echo '<div class="col-auto">';
+echo '<label class="sr-only" for="subscribeEmail">Email address</label>';
+echo '<div class="input-group mb-2">';
+echo '<input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">';
+echo '<div class="input-group-text btn-success text-light">Subscribe</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '';
+echo '<div class="w-100 bg-black py-3">';
+echo '<div class="container">';
+echo '<div class="row pt-2">';
+echo '<div class="col-12">';
+echo '<p class="text-left text-light">';
+echo 'Copyright &copy; 2021 Company Name';
+echo '| Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>';
+echo '</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '';
+echo '</footer>';
+?>
     <!-- End Footer -->
 
     <!-- Start Script -->
