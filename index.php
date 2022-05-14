@@ -126,286 +126,293 @@ https://templatemo.com/tm-559-zay-shop
 
 
     <!-- Start Banner Hero -->
-    <div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>
-            <li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/gojo_1.png" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success"><b>Animex</b> eCommerce</h1>
-                                <p>
-                                    Animex Shop is an online shop for Anime action figures. 
-                                    With many different anime and manga. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/daki.png" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-left">
-                                <h1 class="h1">What's in it?</h1>
-                                <h3 class="h2">eCommerce</h3>
-                                <p>
-                                    This website contain and sells <strong> high quality</strong> and <strong> affordable</strong>
-                                    products.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row p-5">
-                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
-                            <img class="img-fluid" src="./assets/img/kurumi_1.png" alt="">
-                        </div>
-                        <div class="col-lg-6 mb-0 d-flex align-items-center">
-                            <div class="text-align-justify">
-                                <h1 class="h1">Anime</h1>
-                                <h3 class="h2">eCommerce</h3>
-                                <p>
-                                    Anime boasts such vibrancy and diversity in its characters. 
-                                    And collecting such anime action figures, anime stickers and figurines can be an incredibly fun and rewarding hobby.
-                                    It can make you feel like a kid again.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">
-            <i class="fas fa-chevron-left"></i>
-        </a>
-        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">
-            <i class="fas fa-chevron-right"></i>
-        </a>
-    </div>
+    <?php
+echo '<div id="template-mo-zay-hero-carousel" class="carousel slide" data-bs-ride="carousel">';
+echo '<ol class="carousel-indicators">';
+echo '<li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="0" class="active"></li>';
+echo '<li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="1"></li>';
+echo '<li data-bs-target="#template-mo-zay-hero-carousel" data-bs-slide-to="2"></li>';
+echo '</ol>';
+echo '<div class="carousel-inner">';
+echo '<div class="carousel-item active">';
+echo '<div class="container">';
+echo '<div class="row p-5">';
+echo '<div class="mx-auto col-md-8 col-lg-6 order-lg-last">';
+echo '<img class="img-fluid" src="./assets/img/gojo_1.png" alt="">';
+echo '</div>';
+echo '<div class="col-lg-6 mb-0 d-flex align-items-center">';
+echo '<div class="text-align-left align-self-center">';
+echo '<h1 class="h1 text-success"><b>Animex</b> eCommerce</h1>';
+echo '<p>';
+echo 'Animex Shop is an online shop for Anime action figures.';
+echo 'With many different anime and manga. </p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="carousel-item">';
+echo '<div class="container">';
+echo '<div class="row p-5">';
+echo '<div class="mx-auto col-md-8 col-lg-6 order-lg-last">';
+echo '<img class="img-fluid" src="./assets/img/daki.png" alt="">';
+echo '</div>';
+echo '<div class="col-lg-6 mb-0 d-flex align-items-center">';
+echo '<div class="text-align-left">';
+echo '<h1 class="h1"> What is in it?</h1>';
+echo '<h3 class="h2">eCommerce</h3>';
+echo '<p>';
+echo 'This website contain and sells <strong> high quality</strong> and <strong> affordable</strong>';
+echo 'products.';
+echo '</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="carousel-item">';
+echo '<div class="container">';
+echo '<div class="row p-5">';
+echo '<div class="mx-auto col-md-8 col-lg-6 order-lg-last">';
+echo '<img class="img-fluid" src="./assets/img/kurumi_1.png" alt="">';
+echo '</div>';
+echo '<div class="col-lg-6 mb-0 d-flex align-items-center">';
+echo '<div class="text-align-justify">';
+echo '<h1 class="h1">Anime</h1>';
+echo '<h3 class="h2">eCommerce</h3>';
+echo '<p>';
+echo 'Anime boasts such vibrancy and diversity in its characters.';
+echo 'And collecting such anime action figures, anime stickers and figurines can be an incredibly fun and rewarding hobby.';
+echo 'It can make you feel like a kid again.';
+echo '</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="prev">';
+echo '<i class="fas fa-chevron-left"></i>';
+echo '</a>';
+echo '<a class="carousel-control-next text-decoration-none w-auto pe-3" href="#template-mo-zay-hero-carousel" role="button" data-bs-slide="next">';
+echo '<i class="fas fa-chevron-right"></i>';
+echo '</a>';
+echo '</div>';
+?>
     <!-- End Banner Hero -->
 
 
     <!-- Start Categories of The Month -->
-    <section class="container py-5">
-        <div class="row text-center pt-3">
-            <div class="col-lg-6 m-auto">
-                <h1 class="h1">Best selling of The Month</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/hashira1.png" class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3">Watches</h5>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/nezuko2.png" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Shoes</h2>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="./assets/img/d.png" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Accessories</h2>
-                <p class="text-center"><a class="btn btn-success">Go Shop</a></p>
-            </div>
-        </div>
-    </section>
+    <?php
+echo '<section class="container py-5">';
+echo '<div class="row text-center pt-3">';
+echo '<div class="col-lg-6 m-auto">';
+echo '<h1 class="h1">Best selling of The Month</h1>';
+echo '</div>';
+echo '</div>';
+echo '<div class="row">';
+echo '<div class="col-12 col-md-4 p-5 mt-3">';
+echo '<a href="#"><img src="./assets/img/hashira1.png" class="rounded-circle img-fluid border"></a>';
+echo '<h5 class="text-center mt-3 mb-3">Watches</h5>';
+echo '<p class="text-center"><a class="btn btn-success">Go Shop</a></p>';
+echo '</div>';
+echo '<div class="col-12 col-md-4 p-5 mt-3">';
+echo '<a href="#"><img src="./assets/img/nezuko2.png" class="rounded-circle img-fluid border"></a>';
+echo '<h2 class="h5 text-center mt-3 mb-3">Shoes</h2>';
+echo '<p class="text-center"><a class="btn btn-success">Go Shop</a></p>';
+echo '</div>';
+echo '<div class="col-12 col-md-4 p-5 mt-3">';
+echo '<a href="#"><img src="./assets/img/d.png" class="rounded-circle img-fluid border"></a>';
+echo '<h2 class="h5 text-center mt-3 mb-3">Accessories</h2>';
+echo '<p class="text-center"><a class="btn btn-success">Go Shop</a></p>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+?>
     <!-- End Categories of The Month -->
 
 
     <!-- Start Featured Product -->
-    <section class="bg-light">
-        <div class="container py-5">
-            <div class="row text-center py-3">
-                <div class="col-lg-6 m-auto">
-                    <h1 class="h1">Featured Product</h1>
-                    
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.php">
-                            <img src="./assets/img/a.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$240.00</li>
-                            </ul>
-                            <a href="shop-single.php" class="h2 text-decoration-none text-dark">Raiden Shogun</a>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.
-                            </p>
-                            <p class="text-muted">Reviews (24)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.php">
-                            <img src="./assets/img/c.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                    <i class="text-muted fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$480.00</li>
-                            </ul>
-                            <a href="shop-single.php" class="h2 text-decoration-none text-dark">Cloud Nike Shoes</a>
-                            <p class="card-text">
-                                Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.
-                            </p>
-                            <p class="text-muted">Reviews (48)</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card h-100">
-                        <a href="shop-single.php">
-                            <img src="./assets/img/b.png" class="card-img-top" alt="...">
-                        </a>
-                        <div class="card-body">
-                            <ul class="list-unstyled d-flex justify-content-between">
-                                <li>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                    <i class="text-warning fa fa-star"></i>
-                                </li>
-                                <li class="text-muted text-right">$360.00</li>
-                            </ul>
-                            <a href="shop-single.php" class="h2 text-decoration-none text-dark">Summer Addides Shoes</a>
-                            <p class="card-text">
-                                Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec.
-                            </p>
-                            <p class="text-muted">Reviews (74)</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php
+echo '<section class="bg-light">';
+echo '<div class="container py-5">';
+echo '<div class="row text-center py-3">';
+echo '<div class="col-lg-6 m-auto">';
+echo '<h1 class="h1">Featured Product</h1>';
+echo '';
+echo '</div>';
+echo '</div>';
+echo '<div class="row">';
+echo '<div class="col-12 col-md-4 mb-4">';
+echo '<div class="card h-100">';
+echo '<a href="shop-single.php">';
+echo '<img src="./assets/img/a.png" class="card-img-top" alt="...">';
+echo '</a>';
+echo '<div class="card-body">';
+echo '<ul class="list-unstyled d-flex justify-content-between">';
+echo '<li>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '</li>';
+echo '<li class="text-muted text-right">$240.00</li>';
+echo '</ul>';
+echo '<a href="shop-single.php" class="h2 text-decoration-none text-dark">Raiden Shogun</a>';
+echo '<p class="card-text">';
+echo 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.';
+echo '</p>';
+echo '<p class="text-muted">Reviews (24)</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-12 col-md-4 mb-4">';
+echo '<div class="card h-100">';
+echo '<a href="shop-single.php">';
+echo '<img src="./assets/img/c.png" class="card-img-top" alt="...">';
+echo '</a>';
+echo '<div class="card-body">';
+echo '<ul class="list-unstyled d-flex justify-content-between">';
+echo '<li>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '</li>';
+echo '<li class="text-muted text-right">$480.00</li>';
+echo '</ul>';
+echo '<a href="shop-single.php" class="h2 text-decoration-none text-dark">Cloud Nike Shoes</a>';
+echo '<p class="card-text">';
+echo 'Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.';
+echo '</p>';
+echo '<p class="text-muted">Reviews (48)</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-12 col-md-4 mb-4">';
+echo '<div class="card h-100">';
+echo '<a href="shop-single.php">';
+echo '<img src="./assets/img/b.png" class="card-img-top" alt="...">';
+echo '</a>';
+echo '<div class="card-body">';
+echo '<ul class="list-unstyled d-flex justify-content-between">';
+echo '<li>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '</li>';
+echo '<li class="text-muted text-right">$360.00</li>';
+echo '</ul>';
+echo '<a href="shop-single.php" class="h2 text-decoration-none text-dark">Summer Addides Shoes</a>';
+echo '<p class="card-text">';
+echo 'Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec.';
+echo '</p>';
+echo '<p class="text-muted">Reviews (74)</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</section>';
+?>
     <!-- End Featured Product -->
 
 
     <!-- Start Footer -->
-    <footer class="bg-dark" id="tempaltemo_footer">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Animex shop</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                            Gasan, Marinduque, Phil.
-                        </li>
-                        <li>
-                            <i class="fa fa-phone fa-fw"></i>
-                            <a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:info@company.com">animex@gmail.com</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Action Figure</a></li>
-                        <li><a class="text-decoration-none" href="#">Anime Sticker</a></li>
-                        <li><a class="text-decoration-none" href="#">Figurine</a></li>
-
-                    </ul>
-                </div>
-
-                <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
-                    <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Home</a></li>
-                        <li><a class="text-decoration-none" href="#">About Us</a></li>
-                        <li><a class="text-decoration-none" href="#">Shop Locations</a></li>
-                        <li><a class="text-decoration-none" href="#">FAQs</a></li>
-                        <li><a class="text-decoration-none" href="#">Contact</a></li>
-                    </ul>
-                </div>
-
-            </div>
-
-            <div class="row text-light mb-4">
-                <div class="col-12 mb-3">
-                    <div class="w-100 my-3 border-top border-light"></div>
-                </div>
-                <div class="col-auto me-auto">
-                    <ul class="list-inline text-left footer-icons">
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
-                        </li>
-                        <li class="list-inline-item border border-light rounded-circle text-center">
-                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-auto">
-                    <label class="sr-only" for="subscribeEmail">Email address</label>
-                    <div class="input-group mb-2">
-                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
-                        <div class="input-group-text btn-success text-light">Subscribe</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="w-100 bg-black py-3">
-            <div class="container">
-                <div class="row pt-2">
-                    <div class="col-12">
-                        <p class="text-left text-light">
-                            Copyright &copy; 2021 Company Name 
-                            | Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </footer>
+    <?php
+echo '<footer class="bg-dark" id="tempaltemo_footer">';
+echo '<div class="container">';
+echo '<div class="row">';
+echo '';
+echo '<div class="col-md-4 pt-5">';
+echo '<h2 class="h2 text-success border-bottom pb-3 border-light logo">Animex shop</h2>';
+echo '<ul class="list-unstyled text-light footer-link-list">';
+echo '<li>';
+echo '<i class="fas fa-map-marker-alt fa-fw"></i>';
+echo 'Gasan, Marinduque, Phil.';
+echo '</li>';
+echo '<li>';
+echo '<i class="fa fa-phone fa-fw"></i>';
+echo '<a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>';
+echo '</li>';
+echo '<li>';
+echo '<i class="fa fa-envelope fa-fw"></i>';
+echo '<a class="text-decoration-none" href="mailto:info@company.com">animex@gmail.com</a>';
+echo '</li>';
+echo '</ul>';
+echo '</div>';
+echo '';
+echo '<div class="col-md-4 pt-5">';
+echo '<h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>';
+echo '<ul class="list-unstyled text-light footer-link-list">';
+echo '<li><a class="text-decoration-none" href="#">Action Figure</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Figurine</a></li>';
+echo '';
+echo '</ul>';
+echo '</div>';
+echo '';
+echo '<div class="col-md-4 pt-5">';
+echo '<h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>';
+echo '<ul class="list-unstyled text-light footer-link-list">';
+echo '<li><a class="text-decoration-none" href="#">Home</a></li>';
+echo '<li><a class="text-decoration-none" href="#">About Us</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Shop Locations</a></li>';
+echo '<li><a class="text-decoration-none" href="#">FAQs</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Contact</a></li>';
+echo '</ul>';
+echo '</div>';
+echo '';
+echo '</div>';
+echo '';
+echo '<div class="row text-light mb-4">';
+echo '<div class="col-12 mb-3">';
+echo '<div class="w-100 my-3 border-top border-light"></div>';
+echo '</div>';
+echo '<div class="col-auto me-auto">';
+echo '<ul class="list-inline text-left footer-icons">';
+echo '<li class="list-inline-item border border-light rounded-circle text-center">';
+echo '<a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>';
+echo '</li>';
+echo '<li class="list-inline-item border border-light rounded-circle text-center">';
+echo '<a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>';
+echo '</li>';
+echo '<li class="list-inline-item border border-light rounded-circle text-center">';
+echo '<a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>';
+echo '</li>';
+echo '<li class="list-inline-item border border-light rounded-circle text-center">';
+echo '<a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>';
+echo '</li>';
+echo '</ul>';
+echo '</div>';
+echo '<div class="col-auto">';
+echo '<label class="sr-only" for="subscribeEmail">Email address</label>';
+echo '<div class="input-group mb-2">';
+echo '<input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">';
+echo '<div class="input-group-text btn-success text-light">Subscribe</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '';
+echo '<div class="w-100 bg-black py-3">';
+echo '<div class="container">';
+echo '<div class="row pt-2">';
+echo '<div class="col-12">';
+echo '<p class="text-left text-light">';
+echo 'Copyright &copy; 2021 Company Name';
+echo '| Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>';
+echo '</p>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '';
+echo '</footer>';
+?>
     <!-- End Footer -->
 
     <!-- Start Script -->
