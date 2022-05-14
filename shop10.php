@@ -21,634 +21,640 @@
 
 <body>
     
-    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
-        <div class="container text-light">
-            <div class="w-100 d-flex justify-content-between">
-                <div>
-                    <i class="fa fa-envelope mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@company.com</a>
-                    <i class="fa fa-phone mx-2"></i>
-                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>
-                </div>
-                <div>
-                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
-                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <!-- Close Top Nav -->
+<?php
+echo '<nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">';
+echo '<div class="container text-light">';
+echo '<div class="w-100 d-flex justify-content-between">';
+echo '<div>';
+echo '<i class="fa fa-envelope mx-2"></i>';
+echo '<a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@company.com</a>';
+echo '<i class="fa fa-phone mx-2"></i>';
+echo '<a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>';
+echo '</div>';
+echo '<div>';
+echo '<a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>';
+echo '<a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>';
+echo '<a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>';
+echo '<a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '</nav>';
+
+    /*<!-- Close Top Nav -->
 
 
-    <!-- Header -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow">
-        <div class="container d-flex justify-content-between align-items-center">
+    <!-- Header -->*/
+    <?php
+    echo '<nav class="navbar navbar-expand-lg navbar-light shadow">';
+    echo '<div class="container d-flex justify-content-between align-items-center">';
+    echo '';
+    echo '<a class="navbar-brand text-success logo h1 align-self-center" href="index.php">';
+    echo 'Zay';
+    echo '</a>';
+    echo '';
+    echo '<button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">';
+    echo '<span class="navbar-toggler-icon"></span>';
+    echo '</button>';
+    echo '';
+    echo '<div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">';
+    echo '<div class="flex-fill">';
+    echo '<ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">';
+    echo '<li class="nav-item">';
+    echo '<a class="nav-link" href="index.php">Home</a>';
+    echo '</li>';
+    echo '<li class="nav-item">';
+    echo '<a class="nav-link" href="about.php">About</a>';
+    echo '</li>';
+    echo '<li class="nav-item">';
+    echo '<a class="nav-link" href="shop.php">Shop</a>';
+    echo '</li>';
+    echo '<li class="nav-item">';
+    echo '<a class="nav-link" href="contact.php">Contact</a>';
+    echo '</li>';
+    echo '</ul>';
+    echo '</div>';
+    echo '<div class="navbar align-self-center d-flex">';
+    echo '<div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">';
+    echo '<div class="input-group">';
+    echo '<input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">';
+    echo '<div class="input-group-text">';
+    echo '<i class="fa fa-fw fa-search"></i>';
+    echo '</div>';
+    echo '</div>';
+    echo '</div>';
+    echo '<a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">';
+    echo '<i class="fa fa-fw fa-search text-dark mr-2"></i>';
+    echo '</a>';
+    echo '<a class="nav-icon position-relative text-decoration-none" href="#">';
+    echo '<i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>';
+    echo '<span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>';
+    echo '</a>';
+    echo '<a class="nav-icon position-relative text-decoration-none" href="#">';
+    echo '<i class="fa fa-fw fa-user text-dark mr-3"></i>';
+    echo '<span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>';
+    echo '</a>';
+    echo '</div>';
+    echo '</div>';
+    echo '';
+    echo '</div>';
+    echo '</nav>';
+    
+    /*<!-- Close Header -->
 
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.php">
-                Zay
-            </a>
-
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
-                <div class="flex-fill">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.php">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.php">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="shop.php">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.php">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="navbar align-self-center d-flex">
-                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
-                        <div class="input-group">
-                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
-                            <div class="input-group-text">
-                                <i class="fa fa-fw fa-search"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
-                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">7</span>
-                    </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
-                    </a>
-                </div>
-            </div>
-
-        </div>
-    </nav>
-    <!-- Close Header -->
-
-    <!-- Modal -->
-    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
-            <div class="w-100 pt-1 mb-5 text-right">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <form action="" method="get" class="modal-content modal-body border-0 p-0">
-                <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
-                    <button type="submit" class="input-group-text bg-success text-light">
-                        <i class="fa fa-fw fa-search text-white"></i>
-                    </button>
-                </div>
-            </form>
-        </div>
-    </div>
+    <!-- Modal -->*/
+    
+echo '<div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">';
+echo '<div class="modal-dialog modal-lg" role="document">';
+echo '<div class="w-100 pt-1 mb-5 text-right">';
+echo '<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>';
+echo '</div>';
+echo '<form action="" method="get" class="modal-content modal-body border-0 p-0">';
+echo '<div class="input-group mb-2">';
+echo '<input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">';
+echo '<button type="submit" class="input-group-text bg-success text-light">';
+echo '<i class="fa fa-fw fa-search text-white"></i>';
+echo '</button>';
+echo '</div>';
+echo '</form>';
+echo '</div>';
+echo '</div>';
+echo '';
 
 
 
-    <!-- Start Content -->
-    <div class="container py-5">
-        <div class="row">
+    /*<!-- Start Content -->*/
+    
+echo '<div class="container py-5">';
+echo '<div class="row">';
+echo '';
+echo '<div class="col-lg-3">';
+echo '<h1 class="h2 pb-4">Categories</h1>';
+echo '<ul class="list-unstyled templatemo-accordion">';
+echo '<li class="pb-3">';
+echo '<a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">';
+echo 'Gender';
+echo '<i class="fa fa-fw fa-chevron-circle-down mt-1"></i>';
+echo '</a>';
+echo '<ul class="collapse show list-unstyled pl-3">';
+echo '<li><a class="text-decoration-none" href="#">Men</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Women</a></li>';
+echo '</ul>';
+echo '</li>';
+echo '<li class="pb-3">';
+echo '<a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">';
+echo 'Sale';
+echo '<i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>';
+echo '</a>';
+echo '<ul id="collapseTwo" class="collapse list-unstyled pl-3">';
+echo '<li><a class="text-decoration-none" href="#">Sport</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Luxury</a></li>';
+echo '</ul>';
+echo '</li>';
+echo '<li class="pb-3">';
+echo '<a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">';
+echo 'Product';
+echo '<i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>';
+echo '</a>';
+echo '<ul id="collapseThree" class="collapse list-unstyled pl-3">';
+echo '<li><a class="text-decoration-none" href="#">Bag</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Sweather</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Sunglass</a></li>';
+echo '</ul>';
+echo '</li>';
+echo '</ul>';
+echo '</div>';
+echo '';
+echo '<div class="col-lg-9">';
+echo '<div class="row">';
+echo '<div class="col-md-6">';
+echo '<ul class="list-inline shop-top-menu pb-3 pt-1">';
+echo '<li class="list-inline-item">';
+echo '<a class="h3 text-dark text-decoration-none mr-3" href="#">All</a>';
+echo '</li>';
+echo '<li class="list-inline-item">';
+echo '<a class="h3 text-dark text-decoration-none mr-3" href="#">Mens</a>';
+echo '</li>';
+echo '<li class="list-inline-item">';
+echo '<a class="h3 text-dark text-decoration-none" href="#">Womens</a>';
+echo '</li>';
+echo '</ul>';
+echo '</div>';
+echo '<div class="col-md-6 pb-4">';
+echo '<div class="d-flex">';
+echo '<select class="form-control">';
+echo '<option>Featured</option>';
+echo '<option>A to Z</option>';
+echo '<option>Item</option>';
+echo '</select>';
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="row">';
+echo '<div class="col-md-4">';
+echo '<div class="card mb-4 product-wap rounded-0">';
+echo '<div class="card rounded-0">';
+echo '<img class="card-img rounded-0 img-fluid" src="assets/img/pic62.png">';
+echo '<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">';
+echo '<ul class="list-unstyled">';
+echo '<li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
 
-            <div class="col-lg-3">
-                <h1 class="h2 pb-4">Categories</h1>
-                <ul class="list-unstyled templatemo-accordion">
-                    <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                            Gender
-                            <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
-                        </a>
-                        <ul class="collapse show list-unstyled pl-3">
-                            <li><a class="text-decoration-none" href="#">Men</a></li>
-                            <li><a class="text-decoration-none" href="#">Women</a></li>
-                        </ul>
-                    </li>
-                    <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                            Sale
-                            <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
-                        </a>
-                        <ul id="collapseTwo" class="collapse list-unstyled pl-3">
-                            <li><a class="text-decoration-none" href="#">Sport</a></li>
-                            <li><a class="text-decoration-none" href="#">Luxury</a></li>
-                        </ul>
-                    </li>
-                    <li class="pb-3">
-                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                            Product
-                            <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
-                        </a>
-                        <ul id="collapseThree" class="collapse list-unstyled pl-3">
-                            <li><a class="text-decoration-none" href="#">Bag</a></li>
-                            <li><a class="text-decoration-none" href="#">Sweather</a></li>
-                            <li><a class="text-decoration-none" href="#">Sunglass</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+echo '<div class="card-body">';
+echo '<a href="shop-single.php" class="h3 text-decoration-none">';                           
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[81]->name;
 
-            <div class="col-lg-9">
-                <div class="row">
-                    <div class="col-md-6">
-                        <ul class="list-inline shop-top-menu pb-3 pt-1">
-                            <li class="list-inline-item">
-                                <a class="h3 text-dark text-decoration-none mr-3" href="#">All</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="h3 text-dark text-decoration-none mr-3" href="#">Men's</a>
-                            </li>
-                            <li class="list-inline-item">
-                                <a class="h3 text-dark text-decoration-none" href="#">Women's</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 pb-4">
-                        <div class="d-flex">
-                            <select class="form-control">
-                                <option>Featured</option>
-                                <option>A to Z</option>
-                                <option>Item</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic62.png">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[81]->name;
 
-                                ?>
-</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[81]->description;
+echo '</a>';
+echo '<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">';
+echo '<li>';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[81]->description;
 
-                                ?>
-</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[81]->price;
+echo '</li>';
+echo '<li class="pt-2">';
+echo '<span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>';
+echo '</li>';
+echo '</ul>';
+echo '<ul class="list-unstyled d-flex justify-content-center mb-1">';
+echo '<li>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '</li>';
+echo '</ul>';
 
-                                ?>
-</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic63.png">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[82]->name;
+echo '<p class="text-center mb-0">';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[81]->price;
+echo '</p>';
 
-                                ?>
-</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[82]->description;
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-md-4">';
+echo '<div class="card mb-4 product-wap rounded-0">';
+echo '<div class="card rounded-0">';
+echo '<img class="card-img rounded-0 img-fluid" src="assets/img/pic63.png">';
+echo '<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">';
+echo '<ul class="list-unstyled">';
+echo '<li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
 
-                                ?>
-</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[82]->price;
+echo '<div class="card-body">';
+echo '<a href="shop-single.php" class="h3 text-decoration-none">';                           
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[82]->name;
 
-                                ?>
-</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic64.png">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[83]->name;
 
-                                ?>
-</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[83]->description;
+echo '</a>';
+echo '<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">';
+echo '<li>';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[82]->description;
 
-                                ?>
-</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[83]->price;
+echo '</li>';
+echo '<li class="pt-2">';
+echo '<span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>';
+echo '</li>';
+echo '</ul>';
+echo '<ul class="list-unstyled d-flex justify-content-center mb-1">';
+echo '<li>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '</li>';
+echo '</ul>';
 
-                                ?>
-</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic65.png">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[84]->name;
+echo '<p class="text-center mb-0">';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[82]->price;
+echo '</p>';
 
-                                ?>
-</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[84]->description;
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-md-4">';
+echo '<div class="card mb-4 product-wap rounded-0">';
+echo '<div class="card rounded-0">';
+echo '<img class="card-img rounded-0 img-fluid" src="assets/img/pic64.png">';
+echo '<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">';
+echo '<ul class="list-unstyled">';
+echo '<li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
 
-                                ?>
-</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[84]->price;
+echo '<div class="card-body">';
+echo '<a href="shop-single.php" class="h3 text-decoration-none">';                           
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[83]->name;
 
-                                ?>
-</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic66.png">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[85]->name;
 
-                                ?>
-</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[85]->description;
+echo '</a>';
+echo '<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">';
+echo '<li>';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[83]->description;
 
-                                ?>
-</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[85]->price;
+echo '</li>';
+echo '<li class="pt-2">';
+echo '<span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>';
+echo '</li>';
+echo '</ul>';
+echo '<ul class="list-unstyled d-flex justify-content-center mb-1">';
+echo '<li>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '</li>';
+echo '</ul>';
 
-                                ?>
-</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic67.png">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[86]->name;
+echo '<p class="text-center mb-0">';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[83]->price;
+echo '</p>';
 
-                                ?>
-</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[86]->description;
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-md-4">';
+echo '<div class="card mb-4 product-wap rounded-0">';
+echo '<div class="card rounded-0">';
+echo '<img class="card-img rounded-0 img-fluid" src="assets/img/pic65.png">';
+echo '<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">';
+echo '<ul class="list-unstyled">';
+echo '<li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
 
-                                ?>
-</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[86]->price;
+echo '<div class="card-body">';
+echo '<a href="shop-single.php" class="h3 text-decoration-none">';                           
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[84]->name;
 
-                                ?>
-</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                            <img class="card-img rounded-0 img-fluid" src="assets/img/pic68.png">
-                            <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[87]->name;
 
-                                ?>
-</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[87]->description;
+echo '</a>';
+echo '<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">';
+echo '<li>';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[84]->description;
 
-                                ?>
-</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[87]->price;
+echo '</li>';
+echo '<li class="pt-2">';
+echo '<span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>';
+echo '</li>';
+echo '</ul>';
+echo '<ul class="list-unstyled d-flex justify-content-center mb-1">';
+echo '<li>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '</li>';
+echo '</ul>';
 
-                                ?>
-</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic69.png">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[88]->name;
+echo '<p class="text-center mb-0">';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[84]->price;
+echo '</p>';
 
-                                ?>
-</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[88]->description;
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-md-4">';
+echo '<div class="card mb-4 product-wap rounded-0">';
+echo '<div class="card rounded-0">';
+echo '<img class="card-img rounded-0 img-fluid" src="assets/img/pic66.png">';
+echo '<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">';
+echo '<ul class="list-unstyled">';
+echo '<li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
 
-                                ?>
-</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[88]->price;
+echo '<div class="card-body">';
+echo '<a href="shop-single.php" class="h3 text-decoration-none">';                           
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[85]->name;
 
-                                ?>
-</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 product-wap rounded-0">
-                            <div class="card rounded-0">
-                                <img class="card-img rounded-0 img-fluid" src="assets/img/pic70.png">
-                                <div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">
-                                    <ul class="list-unstyled">
-                                        <li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>
-                                        <li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="card-body">
-                                <a href="shop-single.php" class="h3 text-decoration-none"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[89]->name;
 
-                                ?>
-</a>
-                                <ul class="w-100 list-unstyled d-flex justify-content-between mb-0">
-                                    <li><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[89]->description;
+echo '</a>';
+echo '<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">';
+echo '<li>';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[85]->description;
 
-                                ?>
-</li>
-                                    <li class="pt-2">
-                                        <span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>
-                                        <span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>
-                                    </li>
-                                </ul>
-                                <ul class="list-unstyled d-flex justify-content-center mb-1">
-                                    <li>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-warning fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                        <i class="text-muted fa fa-star"></i>
-                                    </li>
-                                </ul>
-                                <p class="text-center mb-0"><?php
-                                    $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[89]->price;
+echo '</li>';
+echo '<li class="pt-2">';
+echo '<span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>';
+echo '</li>';
+echo '</ul>';
+echo '<ul class="list-unstyled d-flex justify-content-center mb-1">';
+echo '<li>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '</li>';
+echo '</ul>';
 
-                                ?>
-</p>
+echo '<p class="text-center mb-0">';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[85]->price;
+echo '</p>';
+
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-md-4">';
+echo '<div class="card mb-4 product-wap rounded-0">';
+echo '<div class="card rounded-0">';
+echo '<img class="card-img rounded-0 img-fluid" src="assets/img/pic67.png">';
+echo '<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">';
+echo '<ul class="list-unstyled">';
+echo '<li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+
+echo '<div class="card-body">';
+echo '<a href="shop-single.php" class="h3 text-decoration-none">';                           
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[86]->name;
+
+
+echo '</a>';
+echo '<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">';
+echo '<li>';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[86]->description;
+
+echo '</li>';
+echo '<li class="pt-2">';
+echo '<span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>';
+echo '</li>';
+echo '</ul>';
+echo '<ul class="list-unstyled d-flex justify-content-center mb-1">';
+echo '<li>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '</li>';
+echo '</ul>';
+
+echo '<p class="text-center mb-0">';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[86]->price;
+echo '</p>';
+
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-md-4">';
+echo '<div class="card mb-4 product-wap rounded-0">';
+echo '<div class="card rounded-0">';
+echo '<img class="card-img rounded-0 img-fluid" src="assets/img/pic68.png">';
+echo '<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">';
+echo '<ul class="list-unstyled">';
+echo '<li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+
+echo '<div class="card-body">';
+echo '<a href="shop-single.php" class="h3 text-decoration-none">';                           
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[87]->name;
+
+
+echo '</a>';
+echo '<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">';
+echo '<li>';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[87]->description;
+
+echo '</li>';
+echo '<li class="pt-2">';
+echo '<span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>';
+echo '</li>';
+echo '</ul>';
+echo '<ul class="list-unstyled d-flex justify-content-center mb-1">';
+echo '<li>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '</li>';
+echo '</ul>';
+
+echo '<p class="text-center mb-0">';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[87]->price;
+echo '</p>';
+
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-md-4">';
+echo '<div class="card mb-4 product-wap rounded-0">';
+echo '<div class="card rounded-0">';
+echo '<img class="card-img rounded-0 img-fluid" src="assets/img/pic69.png">';
+echo '<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">';
+echo '<ul class="list-unstyled">';
+echo '<li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+
+echo '<div class="card-body">';
+echo '<a href="shop-single.php" class="h3 text-decoration-none">';                           
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[88]->name;
+
+
+echo '</a>';
+echo '<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">';
+echo '<li>';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[88]->description;
+
+echo '</li>';
+echo '<li class="pt-2">';
+echo '<span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>';
+echo '</li>';
+echo '</ul>';
+echo '<ul class="list-unstyled d-flex justify-content-center mb-1">';
+echo '<li>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '</li>';
+echo '</ul>';
+
+echo '<p class="text-center mb-0">';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[88]->price;
+echo '</p>';
+
+echo '</div>';
+echo '</div>';
+echo '</div>';
+echo '<div class="col-md-4">';
+echo '<div class="card mb-4 product-wap rounded-0">';
+echo '<div class="card rounded-0">';
+echo '<img class="card-img rounded-0 img-fluid" src="assets/img/pic70.png">';
+echo '<div class="card-img-overlay rounded-0 product-overlay d-flex align-items-center justify-content-center">';
+echo '<ul class="list-unstyled">';
+echo '<li><a class="btn btn-success text-white" href="shop-single.php"><i class="far fa-heart"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="far fa-eye"></i></a></li>';
+echo '<li><a class="btn btn-success text-white mt-2" href="shop-single.php"><i class="fas fa-cart-plus"></i></a></li>';
+echo '</ul>';
+echo '</div>';
+echo '</div>';
+
+echo '<div class="card-body">';
+echo '<a href="shop-single.php" class="h3 text-decoration-none">';                           
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[89]->name;
+
+
+echo '</a>';
+echo '<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">';
+echo '<li>';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[89]->description;
+
+echo '</li>';
+echo '<li class="pt-2">';
+echo '<span class="product-color-dot color-dot-red float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-blue float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-black float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-light float-left rounded-circle ml-1"></span>';
+echo '<span class="product-color-dot color-dot-green float-left rounded-circle ml-1"></span>';
+echo '</li>';
+echo '</ul>';
+echo '<ul class="list-unstyled d-flex justify-content-center mb-1">';
+echo '<li>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-warning fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '<i class="text-muted fa fa-star"></i>';
+echo '</li>';
+echo '</ul>';
+
+echo '<p class="text-center mb-0">';
+$item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
+echo $item->product[89]->price;
+echo '</p>';
                             </div>
                         </div>
                     </div>
