@@ -213,17 +213,17 @@ echo '</div>';
 echo '<div class="row">';
 echo '<div class="col-12 col-md-4 p-5 mt-3">';
 echo '<a href="#"><img src="./assets/img/hashira1.png" class="rounded-circle img-fluid border"></a>';
-echo '<h5 class="text-center mt-3 mb-3">Watches</h5>';
+
 echo '<p class="text-center"><a class="btn btn-success">Go Shop</a></p>';
 echo '</div>';
 echo '<div class="col-12 col-md-4 p-5 mt-3">';
 echo '<a href="#"><img src="./assets/img/nezuko2.png" class="rounded-circle img-fluid border"></a>';
-echo '<h2 class="h5 text-center mt-3 mb-3">Shoes</h2>';
+
 echo '<p class="text-center"><a class="btn btn-success">Go Shop</a></p>';
 echo '</div>';
 echo '<div class="col-12 col-md-4 p-5 mt-3">';
 echo '<a href="#"><img src="./assets/img/d.png" class="rounded-circle img-fluid border"></a>';
-echo '<h2 class="h5 text-center mt-3 mb-3">Accessories</h2>';
+
 echo '<p class="text-center"><a class="btn btn-success">Go Shop</a></p>';
 echo '</div>';
 echo '</div>';
@@ -261,7 +261,7 @@ echo '<li class="text-muted text-right">$240.00</li>';
 echo '</ul>';
 echo '<a href="shop-single.php" class="h2 text-decoration-none text-dark">Raiden Shogun</a>';
 echo '<p class="card-text">';
-echo 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt in culpa qui officia deserunt.';
+
 echo '</p>';
 echo '<p class="text-muted">Reviews (24)</p>';
 echo '</div>';
@@ -285,7 +285,7 @@ echo '<li class="text-muted text-right">$480.00</li>';
 echo '</ul>';
 echo '<a href="shop-single.php" class="h2 text-decoration-none text-dark">Cloud Nike Shoes</a>';
 echo '<p class="card-text">';
-echo 'Aenean gravida dignissim finibus. Nullam ipsum diam, posuere vitae pharetra sed, commodo ullamcorper.';
+
 echo '</p>';
 echo '<p class="text-muted">Reviews (48)</p>';
 echo '</div>';
@@ -309,7 +309,7 @@ echo '<li class="text-muted text-right">$360.00</li>';
 echo '</ul>';
 echo '<a href="shop-single.php" class="h2 text-decoration-none text-dark">Summer Addides Shoes</a>';
 echo '<p class="card-text">';
-echo 'Curabitur ac mi sit amet diam luctus porta. Phasellus pulvinar sagittis diam, et scelerisque ipsum lobortis nec.';
+
 echo '</p>';
 echo '<p class="text-muted">Reviews (74)</p>';
 echo '</div>';
