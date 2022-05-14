@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Zay Shop - Product Listing Page</title>
+    <title>Animex - Product Listing Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -27,7 +27,7 @@ echo '<div class="container text-light">';
 echo '<div class="w-100 d-flex justify-content-between">';
 echo '<div>';
 echo '<i class="fa fa-envelope mx-2"></i>';
-echo '<a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@company.com</a>';
+echo '<a class="navbar-sm-brand text-light text-decoration-none">animex@gmail.com</a>';
 echo '<i class="fa fa-phone mx-2"></i>';
 echo '<a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>';
 echo '</div>';
@@ -50,7 +50,7 @@ echo '<nav class="navbar navbar-expand-lg navbar-light shadow">';
 echo '<div class="container d-flex justify-content-between align-items-center">';
 echo '';
 echo '<a class="navbar-brand text-success logo h1 align-self-center" href="index.php">';
-echo 'Zay';
+echo 'Animex';
 echo '</a>';
 echo '';
 echo '<button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">';
@@ -147,19 +147,15 @@ echo 'Sale';
 echo '<i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>';
 echo '</a>';
 echo '<ul id="collapseTwo" class="collapse list-unstyled pl-3">';
-echo '<li><a class="text-decoration-none" href="#">Sport</a></li>';
-echo '<li><a class="text-decoration-none" href="#">Luxury</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Resin</a></li>';
+echo '<li><a class="text-decoration-none" href="#">pvc</a></li>';
 echo '</ul>';
 echo '</li>';
 echo '<li class="pb-3">';
 echo '<a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">';
-echo 'Product';
-echo '<i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>';
+
 echo '</a>';
-echo '<ul id="collapseThree" class="collapse list-unstyled pl-3">';
-echo '<li><a class="text-decoration-none" href="#">Bag</a></li>';
-echo '<li><a class="text-decoration-none" href="#">Sweather</a></li>';
-echo '<li><a class="text-decoration-none" href="#">Sunglass</a></li>';
+
 echo '</ul>';
 echo '</li>';
 echo '</ul>';
@@ -173,10 +169,10 @@ echo '<li class="list-inline-item">';
 echo '<a class="h3 text-dark text-decoration-none mr-3" href="#">All</a>';
 echo '</li>';
 echo '<li class="list-inline-item">';
-echo '<a class="h3 text-dark text-decoration-none mr-3" href="#">Mens</a>';
+
 echo '</li>';
 echo '<li class="list-inline-item">';
-echo '<a class="h3 text-dark text-decoration-none" href="#">Women</a>';
+
 echo '</li>';
 echo '</ul>';
 echo '</div>';
@@ -710,8 +706,7 @@ echo '<div class="row text-center py-3">';
 echo '<div class="col-lg-6 m-auto">';
 echo '<h1 class="h1">Our Brands</h1>';
 echo '<p>';
-echo 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod';
-echo 'Lorem ipsum dolor sit amet.';
+
 echo '</p>';
 echo '</div>';
 echo '<div class="col-lg-9 m-auto tempaltemo-carousel">';
@@ -814,11 +809,11 @@ echo '<div class="container">';
 echo '<div class="row">';
 echo '';
 echo '<div class="col-md-4 pt-5">';
-echo '<h2 class="h2 text-success border-bottom pb-3 border-light logo">Zay Shop</h2>';
+echo '<h2 class="h2 text-success border-bottom pb-3 border-light logo">Animex</h2>';
 echo '<ul class="list-unstyled text-light footer-link-list">';
 echo '<li>';
 echo '<i class="fas fa-map-marker-alt fa-fw"></i>';
-echo '123 Consectetur at ligula 10660';
+echo 'Gasan, Marinduque, Phil.';
 echo '</li>';
 echo '<li>';
 echo '<i class="fa fa-phone fa-fw"></i>';
@@ -826,7 +821,7 @@ echo '<a class="text-decoration-none" href="tel:010-020-0340">010-020-0340</a>';
 echo '</li>';
 echo '<li>';
 echo '<i class="fa fa-envelope fa-fw"></i>';
-echo '<a class="text-decoration-none" href="mailto:info@company.com">info@company.com</a>';
+echo '<a class="text-decoration-none">animex@gmail.com</a>';
 echo '</li>';
 echo '</ul>';
 echo '</div>';
@@ -834,13 +829,9 @@ echo '';
 echo '<div class="col-md-4 pt-5">';
 echo '<h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>';
 echo '<ul class="list-unstyled text-light footer-link-list">';
-echo '<li><a class="text-decoration-none" href="#">Luxury</a></li>';
-echo '<li><a class="text-decoration-none" href="#">Sport Wear</a></li>';
-echo '<li><a class="text-decoration-none" href="#">Men Shoes</a></li>';
-echo '<li><a class="text-decoration-none" href="#">Women Shoes</a></li>';
-echo '<li><a class="text-decoration-none" href="#">Popular Dress</a></li>';
-echo '<li><a class="text-decoration-none" href="#">Gym Accessories</a></li>';
-echo '<li><a class="text-decoration-none" href="#">Sport Shoes</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Action Figure</a></li>';
+echo '<li><a class="text-decoration-none" href="#">Figurine</a></li>';
+
 echo '</ul>';
 echo '</div>';
 echo '';
@@ -892,8 +883,8 @@ echo '<div class="container">';
 echo '<div class="row pt-2">';
 echo '<div class="col-12">';
 echo '<p class="text-left text-light">';
-echo 'Copyright &copy; 2021 Company Name';
-echo '| Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>';
+echo 'Copyright &copy; 2022';
+
 echo '</p>';
 echo '</div>';
 echo '</div>';
