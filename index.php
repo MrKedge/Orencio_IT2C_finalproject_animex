@@ -33,7 +33,7 @@ https://templatemo.com/tm-559-zay-shop
     echo '<div class="w-100 d-flex justify-content-between">';
     echo '<div>';
     echo '<i class="fa fa-envelope mx-2"></i>';
-    echo '<a class="navbar-sm-brand text-light text-decoration-none" href="mailto:animex@gmail.com">animex@gmail.com</a>';
+    echo '<a class="navbar-sm-brand text-light text-decoration-none">animex@gmail.com</a>';
     echo '<i class="fa fa-phone mx-2"></i>';
     echo '<a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">010-020-0340</a>';
     echo '</div>';
@@ -403,8 +403,8 @@ echo '<div class="container">';
 echo '<div class="row pt-2">';
 echo '<div class="col-12">';
 echo '<p class="text-left text-light">';
-echo 'Copyright &copy; 2021 Company Name';
-echo '| Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>';
+echo 'Copyright &copy; 2022';
+
 echo '</p>';
 echo '</div>';
 echo '</div>';
