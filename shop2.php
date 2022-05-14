@@ -668,7 +668,7 @@ echo '</ul>';
                                     
                                     echo '<p class="text-center mb-0">';
                                     $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[16]->price;
+                                    echo $item->product[17]->price;
                                     echo '</p>';
                                     
 echo '</div>';
@@ -918,16 +918,16 @@ echo '</div>';
 echo '</div>';
 echo '';
 echo '</footer>';
-echo '<!-- End Footer -->';
-echo '';
-echo '<!-- Start Script -->';
-echo '<script src="assets/js/jquery-1.11.0.min.js"></script>';
-echo '<script src="assets/js/jquery-migrate-1.2.1.min.js"></script>';
-echo '<script src="assets/js/bootstrap.bundle.min.js"></script>';
-echo '<script src="assets/js/templatemo.js"></script>';
-echo '<script src="assets/js/custom.js"></script>';
-echo '<!-- End Script -->';
 ?>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
 </body>
 
 </html>

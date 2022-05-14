@@ -68,53 +68,7 @@
         <price> PHP 2,000.00 </price>
     </product>
 	
-	<product>
-        <name> Big Mom  </name>
-        <description> Action Figure </description>
-        <price> PHP 1,500.00 </price>
-    </product>
 	
-	<product>
-        <name> Sakura  </name>
-        <description> Action Figure </description>
-        <price> PHP 2,500.00 </price>
-    </product>
-	
-	<product>
-        <name> Diablo  </name>
-        <description> Resin </description>
-        <price> PHP 3,000.00 </price>
-    </product>
-	
-	<product>
-        <name> Rimuro  </name>
-        <description> Resin </description>
-        <price> PHP 1,999.00 </price>
-    </product>
-	
-	<product>
-        <name> Tifa  </name>
-        <description> Action Figure </description>
-        <price> PHP 1,000.00 </price>
-    </product>
-	
-	<product>
-        <name> Kaguya  </name>
-        <description> Action Figure </description>
-        <price> PHP 899.00 </price>
-    </product>
-	
-	<product>
-        <name> Meliodas  </name>
-        <description> Resin </description>
-        <price> PHP 4,000.00 </price>
-    </product>
-	
-	<product>
-        <name> Saber  </name>
-        <description> Action Figure </description>
-        <price> PHP 2,000.00 </price>
-    </product>
 
     <product>
         <name> Kaido  </name>
