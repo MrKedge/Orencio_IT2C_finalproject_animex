@@ -661,14 +661,14 @@ echo '</div>';
                                     echo '<div class="card-body">';
                                     echo '<a href="shop-single.php" class="h3 text-decoration-none">';                           
                                     $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[7]->name;
+                                    echo $item->product[8]->name;
 
 
                                     echo '</a>';
                                     echo '<ul class="w-100 list-unstyled d-flex justify-content-between mb-0">';
                                     echo '<li>';
                                     $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[7]->description;
+                                    echo $item->product[8]->description;
 
 
                                     
@@ -693,7 +693,7 @@ echo '</ul>';
                                     
                                     echo '<p class="text-center mb-0">';
                                     $item = simplexml_load_file('Orencio_Saludo_IT2C_finalproject_Animex.xml');
-                                    echo $item->product[7]->price;
+                                    echo $item->product[8]->price;
                                     echo '</p>';
 echo '</div></div>';
 echo '</div>';
