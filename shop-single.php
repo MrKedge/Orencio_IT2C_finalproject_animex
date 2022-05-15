@@ -797,7 +797,7 @@ echo '<h2 class="h2 text-success border-bottom pb-3 border-light logo">Animex</h
 echo '<ul class="list-unstyled text-light footer-link-list">';
 echo '<li>';
 echo '<i class="fas fa-map-marker-alt fa-fw"></i>';
-echo '123 Consectetur at ligula 10660';
+echo 'Gasan, Marinduque, Phil.';
 echo '</li>';
 echo '<li>';
 echo '<i class="fa fa-phone fa-fw"></i>';
@@ -866,8 +866,8 @@ echo '<div class="container">';
 echo '<div class="row pt-2">';
 echo '<div class="col-12">';
 echo '<p class="text-left text-light">';
-echo 'Copyright &copy; 2021 Company Name';
-echo '| Designed by <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>';
+echo 'Copyright &copy; 2022';
+
 echo '</p>';
 echo '</div>';
 echo '</div>';
